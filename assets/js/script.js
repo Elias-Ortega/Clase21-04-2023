@@ -15,7 +15,7 @@ btnConsultar.addEventListener('click', function(){
                 theme: "dark1", // "light2", "dark1", "dark2"
                 animationEnabled: false, // change to true		
                 title:{
-                    text: "Pokémon"
+                    text: response.name
                 },
                 data: [
                 {
